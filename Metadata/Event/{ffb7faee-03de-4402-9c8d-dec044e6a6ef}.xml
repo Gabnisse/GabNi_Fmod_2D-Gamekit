@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ffb7faee-03de-4402-9c8d-dec044e6a6ef}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>PuzzleStinger</value>
 		</property>

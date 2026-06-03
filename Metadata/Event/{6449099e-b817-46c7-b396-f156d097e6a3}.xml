@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6449099e-b817-46c7-b396-f156d097e6a3}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>MenyMusic</value>
 		</property>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{72464b24-1ed4-422a-8c47-9411dceb080a}">
+		<property name="note">
+			<value>Horizontal event for the boss music, Parameter "BossStage" progresses the music further</value>
+		</property>
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossMusic</value>
 		</property>
