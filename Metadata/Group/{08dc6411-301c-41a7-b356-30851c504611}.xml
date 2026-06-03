@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{08dc6411-301c-41a7-b356-30851c504611}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
+		<property name="volume">
+			<value>6.5</value>
+		</property>
+		<property name="name">
+			<value>Stingers</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6e0ab851-d644-4abe-b789-b48770fa85d9}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0048bb53-ccde-4d0a-84df-3088084c387e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6e0ab851-d644-4abe-b789-b48770fa85d9}">
+		<relationship name="effects">
+			<destination>{a747f73a-4c25-4cbe-9f97-317f7b0b925d}</destination>
+			<destination>{aebd4e4b-e07f-42ac-9868-2810d61ed45f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0048bb53-ccde-4d0a-84df-3088084c387e}" />
+	<object class="MixerBusFader" id="{a747f73a-4c25-4cbe-9f97-317f7b0b925d}" />
+	<object class="Sidechain" id="{aebd4e4b-e07f-42ac-9868-2810d61ed45f}" />
+</objects>
