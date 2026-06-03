@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="SnapshotList" id="{77c27da7-1729-463c-b1b6-114945f01385}">
-		<relationship name="items">
-			<destination>{4b926d97-50a7-4299-a8f0-63d963656bf9}</destination>
-		</relationship>
+	<object class="MixerVCA" id="{11ce03bc-d112-44e0-b719-298938fcf5e3}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
+		<property name="name">
+			<value>MasterVCA</value>
+		</property>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
 		</relationship>
