@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{4b926d97-50a7-4299-a8f0-63d963656bf9}">
+		<property name="note">
+			<value>Snapshot for when the game gets paused. Adds a lowpassfilter on the music master group.</value>
+		</property>
 		<property name="name">
 			<value>PauseSnapshot</value>
 		</property>

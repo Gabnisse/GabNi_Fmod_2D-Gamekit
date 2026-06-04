@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d2c21e3b-b126-4656-b5d9-1becacf54130}">
+		<property name="note">
+			<value>A vertical event that plays throughout zone 4 and 5 before the boss battle. It evolves with the progress and uses the same routing and combat system as the "Overworld" event. It has some slight reverb on the master to make the underground feeling stronger.</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
 		</property>
@@ -59,9 +62,6 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{900f43c8-7f24-4929-866c-fc9fbf181724}">
-		<relationship name="masters">
-			<destination>{46316028-d03e-4f5e-add0-82852247d408}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{8924be23-2a0b-4a62-961a-22e898e49532}</destination>
 		</relationship>

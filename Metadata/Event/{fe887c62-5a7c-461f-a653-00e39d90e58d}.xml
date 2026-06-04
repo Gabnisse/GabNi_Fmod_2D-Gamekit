@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fe887c62-5a7c-461f-a653-00e39d90e58d}">
+		<property name="note">
+			<value>This vertical event plays throughout zone 1-3 and evolves with the progress of the player. The combat music switches out the "Overworld" track when combat is entered. All tracks except combat is routed too the overworld group track for an easy switch.</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
 		</property>
@@ -59,9 +62,6 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{ec0d10ac-8918-4ef0-b55c-ad726740f406}">
-		<relationship name="masters">
-			<destination>{46316028-d03e-4f5e-add0-82852247d408}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{737aadba-762a-4c06-bd9f-3f968305654d}</destination>
 		</relationship>

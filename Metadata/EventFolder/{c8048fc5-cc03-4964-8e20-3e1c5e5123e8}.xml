@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{c8048fc5-cc03-4964-8e20-3e1c5e5123e8}">
+		<property name="note">
+			<value>Folder for Stingers</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

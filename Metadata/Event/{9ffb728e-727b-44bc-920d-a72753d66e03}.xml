@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9ffb728e-727b-44bc-920d-a72753d66e03}">
+		<property name="note">
+			<value>Stinger for the key pickup, i also added it to the weapon pick up because why not</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
 		</property>

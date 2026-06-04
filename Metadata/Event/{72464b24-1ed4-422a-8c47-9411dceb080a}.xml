@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{72464b24-1ed4-422a-8c47-9411dceb080a}">
 		<property name="note">
-			<value>Horizontal event for the boss music, Parameter "BossStage" progresses the music further</value>
+			<value>Horizontal event for the boss music that starts playing during the cutscene, Parameter "BossStage" progresses the music further until it hits "4" where the boss should be defeated and an "outro" plays. </value>
 		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
@@ -58,9 +58,6 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{8bc7cbdf-c31a-47d7-8a79-4cfa7578278d}">
-		<relationship name="masters">
-			<destination>{46316028-d03e-4f5e-add0-82852247d408}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{43af0e63-6496-446f-96a1-e74b9ca3b4c4}</destination>
 		</relationship>

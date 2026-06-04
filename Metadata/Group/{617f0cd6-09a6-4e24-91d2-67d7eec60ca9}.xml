@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{617f0cd6-09a6-4e24-91d2-67d7eec60ca9}">
+		<property name="note">
+			<value>Music mixers fader is sidechained to the stinger mixer and uses a lowpass filter for snapshots.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
@@ -9,6 +12,9 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{6f16bea9-9e99-490c-b670-b63ff74b54b1}</destination>
+		</relationship>
+		<relationship name="masters">
+			<destination>{46316028-d03e-4f5e-add0-82852247d408}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{0de89a15-5d16-4205-a7b2-813e201ff3c8}</destination>

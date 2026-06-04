@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{08dc6411-301c-41a7-b356-30851c504611}">
+		<property name="note">
+			<value>The Stinger mixer is sidechained to the music mixer so the music is lowered when the stingers play.</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>
@@ -10,6 +13,9 @@
 		<property name="name">
 			<value>Stingers</value>
 		</property>
+		<relationship name="masters">
+			<destination>{46316028-d03e-4f5e-add0-82852247d408}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{6e0ab851-d644-4abe-b789-b48770fa85d9}</destination>
 		</relationship>

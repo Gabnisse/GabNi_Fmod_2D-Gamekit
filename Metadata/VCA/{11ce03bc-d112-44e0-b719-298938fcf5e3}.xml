@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{11ce03bc-d112-44e0-b719-298938fcf5e3}">
+		<property name="note">
+			<value>All VCAs are connected to the in game settingsmenu</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>

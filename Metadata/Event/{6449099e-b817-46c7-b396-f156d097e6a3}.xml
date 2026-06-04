@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6449099e-b817-46c7-b396-f156d097e6a3}">
+		<property name="note">
+			<value>The music for the startup menu of the game. Its simple and just loops until the first level is started.</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
 		</property>
@@ -50,9 +53,6 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{b7198ee5-9bea-4fbe-9904-8fb2f02f3968}">
-		<relationship name="masters">
-			<destination>{46316028-d03e-4f5e-add0-82852247d408}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{d7b8c7e5-5dda-4375-9f62-bbd3236085e4}</destination>
 		</relationship>

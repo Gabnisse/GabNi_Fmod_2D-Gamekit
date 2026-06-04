@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2e1f41eb-c578-467d-97d3-1f92cdc121ed}">
+		<property name="note">
+			<value>Stinger for when the player dies.</value>
+		</property>
 		<property name="color">
 			<value>Purple Light 1</value>
 		</property>
