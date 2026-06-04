@@ -403,6 +403,9 @@
 		<property name="length">
 			<value>3</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{35f49162-bab0-42be-9255-9d726fdfe47e}</destination>
 		</relationship>
@@ -615,7 +618,7 @@
 	<object class="MixerBusFader" id="{9dcb305c-d493-43c9-bbbc-58418b032223}" />
 	<object class="AutomationCurve" id="{59bb2a67-a7d4-48d9-91f1-12a0239caaba}">
 		<relationship name="parameter">
-			<destination>{f367bf82-1c24-40d2-b5f1-0380b43b6d68}</destination>
+			<destination>{93d0da09-8acb-42eb-8706-4bb8b30847f0}</destination>
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{b74ad46f-c0b9-4e7c-a37f-ddadbdcb9f08}</destination>
@@ -625,7 +628,7 @@
 	<object class="MixerBusFader" id="{6f94dd39-d2cc-4673-a72f-1a4810957899}" />
 	<object class="AutomationCurve" id="{faa3c8ab-7f26-4abd-bc28-b523b1ba3b3a}">
 		<relationship name="parameter">
-			<destination>{f367bf82-1c24-40d2-b5f1-0380b43b6d68}</destination>
+			<destination>{93d0da09-8acb-42eb-8706-4bb8b30847f0}</destination>
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{f27087ee-fa7d-4149-9e0d-6f4e3d01bde9}</destination>
