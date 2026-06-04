@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{af72a67c-f515-4088-8d8c-0c953aa613ba}">
+		<property name="name">
+			<value>Underworld Parameters</value>
+		</property>
+		<relationship name="folder">
+			<destination>{71a4083c-364d-48f7-b00f-252156dc6461}</destination>
+		</relationship>
+	</object>
+</objects>

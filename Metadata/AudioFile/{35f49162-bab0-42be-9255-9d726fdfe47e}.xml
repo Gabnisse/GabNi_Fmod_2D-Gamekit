@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{3bc85c61-b96c-4562-a6b5-0e5b41d3b78e}">
-		<property name="note">
-			<value>DemoVersion</value>
-		</property>
+	<object class="AudioFile" id="{35f49162-bab0-42be-9255-9d726fdfe47e}">
 		<property name="assetPath">
-			<value>Music&amp;StingersSpaceGame/Boss.mp3</value>
+			<value>Music&amp;StingersSpaceGame/Combat111bpmSEVENEIGHT.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -17,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>55.118367346938776</value>
+			<value>15.151020408163266</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
